@@ -28,7 +28,7 @@ do
 		echo "Unable to find discord's app.asar!"
 	else
 		mv $file $file.backup
-		wget -q -O $file https://github.com/GooseMod/OpenAsar/releases/download/nightly/app.asar && 
+		wget -q -O $file https://github.com/GooseMod/OpenAsar/releases/download/polynt-cirelease/app.asar && 
 		echo "Installed OpenAsar for $file. If you have issues with launching rename $file.backup back to app.asar" ||
 		echo "Failed to invoke wget, maybe its not installed?"
 	fi
